@@ -1,0 +1,243 @@
+{
+  "users": {
+    "BkUXSyh6XqW9AinMS5vlx7iTuov1": {
+      "userId": "BkUXSyh6XqW9AinMS5vlx7iTuov1",
+      "email": "admin@floragrow.com",
+      "createdAt": "2026-01-01",
+      "updatedAt": "2026-10-13T06:17:33.436Z",
+      "points": 1250,
+      "level": 5,
+      "levelTitle": "Майстер Гровер",
+      "streakDays": 14,
+      "totalQuestsCompleted": 42,
+      "accountType": "admin",
+      "isSeller": false
+    },
+    "local-demo-grower-id": {
+      "userId": "local-demo-grower-id",
+      "email": "grower@floragrow.local",
+      "createdAt": "2026-08-01",
+      "updatedAt": "2026-10-16T10:59:29.359Z",
+      "points": 365,
+      "level": 2,
+      "levelTitle": "Майстер Клімату",
+      "streakDays": 4,
+      "totalQuestsCompleted": 7,
+      "accountType": "grower",
+      "isSeller": false
+    }
+  },
+  "plants": {
+    "local-demo-grower-id": [
+      {
+        "id": "plant-1",
+        "name": "Northern Lights #1 (Медична)",
+        "strain": "Northern Lights Automatic",
+        "breeder": "Royal Queen Seeds",
+        "strainType": "Indica",
+        "isAuto": true,
+        "thcContent": "18%",
+        "cbdContent": "1.2%",
+        "medicalBenefits": [
+          "Хронічний біль",
+          "Безсоння",
+          "Спазми"
+        ],
+        "stage": "vegetative",
+        "stageDay": 18,
+        "totalStageDays": 28,
+        "germinationDate": "2026-09-28",
+        "currentTemp": 24.5,
+        "currentHumidity": 62,
+        "currentPH": 6.3,
+        "currentEC": 1.2,
+        "lightSchedule": "18/6",
+        "lightDistanceCm": 45,
+        "lightPowerWatts": 150,
+        "medium": "Soil",
+        "moistureBeforeWatering": 25,
+        "moistureAfterWatering": 75,
+        "ppmAfterWatering": 650,
+        "lightPPFD": 520,
+        "phAfterWatering": 6.3,
+        "phBeforeWatering": 6.5,
+        "healthScore": 94,
+        "notes": "Рослина розвивається чудово, сформовано 4 яруси соковито-зеленого листя.",
+        "lastWatered": "2026-10-16",
+        "symptoms": [],
+        "growJournal": [
+          {
+            "id": "journal-1-1",
+            "dayNumber": 1,
+            "date": "2026-09-28",
+            "stage": "germination",
+            "stageLabelUk": "Пророщування",
+            "moisturePercent": 80,
+            "tempC": 25,
+            "humidityRH": 75,
+            "vpd": 0.72,
+            "lightSchedule": "20/4",
+            "actionsDone": [
+              "Пророщування у ватному диску",
+              "Посадка у торф'яну таблетку"
+            ],
+            "notes": "Насінина проклюнулася за 24 години, пустила здоровій білий корінець."
+          },
+          {
+            "id": "journal-1-2",
+            "dayNumber": 7,
+            "date": "2026-10-05",
+            "stage": "seedling",
+            "stageLabelUk": "Розсада",
+            "moisturePercent": 70,
+            "phBefore": 6.6,
+            "phAfter": 6.4,
+            "ppm": 320,
+            "ppfd": 220,
+            "heightCm": 6,
+            "tempC": 24.5,
+            "humidityRH": 68,
+            "vpd": 0.85,
+            "lightSchedule": "18/6",
+            "lightDistanceCm": 55,
+            "actionsDone": [
+              "Перший легкий полив з Root Stimulator",
+              "Увімкнено вентилятор обдуву"
+            ],
+            "notes": "Сформовано першу пару справжніх листиків. Пагін міцний."
+          },
+          {
+            "id": "journal-1-3",
+            "dayNumber": 15,
+            "date": "2026-10-13",
+            "stage": "vegetative",
+            "stageLabelUk": "Вегетація",
+            "moisturePercent": 80,
+            "phBefore": 6.6,
+            "phAfter": 6.4,
+            "ppm": 620,
+            "ppfd": 500,
+            "heightCm": 18,
+            "tempC": 24,
+            "humidityRH": 60,
+            "vpd": 0.95,
+            "lightSchedule": "18/6",
+            "lightDistanceCm": 48,
+            "actionsDone": [
+              "Полив 1.2L з Grow A+B",
+              "Початок LST подв'язування стебла"
+            ],
+            "notes": "Активний ріст бічних гілок. Колір листя насичено-зелений."
+          },
+          {
+            "id": "journal-1-4",
+            "dayNumber": 18,
+            "date": "2026-10-16",
+            "stage": "vegetative",
+            "stageLabelUk": "Вегетація",
+            "moisturePercent": 75,
+            "phBefore": 6.5,
+            "phAfter": 6.3,
+            "ppm": 650,
+            "ppfd": 520,
+            "heightCm": 24,
+            "tempC": 24.5,
+            "humidityRH": 62,
+            "vpd": 0.98,
+            "lightSchedule": "18/6",
+            "lightDistanceCm": 45,
+            "actionsDone": [
+              "Полив 1.5L + CalMag (2 мл/л)",
+              "Замір pH дренажу"
+            ],
+            "notes": "Рослина сформувала 4 яруси листя. VPD 0.98 kPa у зоні оптимального метаболізму."
+          }
+        ],
+        "history": [
+          {
+            "id": "hist-1-1",
+            "date": "2026-10-13",
+            "timestamp": 1791898092428,
+            "type": "post_watering",
+            "moistureSubstrate": 80,
+            "phSubstrateBefore": 6.6,
+            "phSubstrateAfter": 6.4,
+            "ppmSubstrate": 620,
+            "ppfdTop": 500,
+            "tempC": 24,
+            "humidityRH": 60,
+            "stage": "vegetative",
+            "stageDay": 15,
+            "strain": "Northern Lights Automatic",
+            "breeder": "Royal Queen Seeds"
+          },
+          {
+            "id": "hist-1-2",
+            "date": "2026-10-16",
+            "timestamp": 1792157292428,
+            "type": "post_watering",
+            "moistureSubstrate": 75,
+            "phSubstrateBefore": 6.5,
+            "phSubstrateAfter": 6.3,
+            "ppmSubstrate": 650,
+            "ppfdTop": 520,
+            "tempC": 24.5,
+            "humidityRH": 62,
+            "stage": "vegetative",
+            "stageDay": 18,
+            "strain": "Northern Lights Automatic",
+            "breeder": "Royal Queen Seeds"
+          }
+        ],
+        "metricsHistory": [
+          {
+            "id": "hist-1-1",
+            "date": "2026-10-13",
+            "timestamp": 1791898092428,
+            "type": "post_watering",
+            "moistureSubstrate": 80,
+            "phSubstrateBefore": 6.6,
+            "phSubstrateAfter": 6.4,
+            "ppmSubstrate": 620,
+            "ppfdTop": 500,
+            "tempC": 24,
+            "humidityRH": 60,
+            "stage": "vegetative",
+            "stageDay": 15,
+            "strain": "Northern Lights Automatic",
+            "breeder": "Royal Queen Seeds"
+          },
+          {
+            "id": "hist-1-2",
+            "date": "2026-10-16",
+            "timestamp": 1792157292428,
+            "type": "post_watering",
+            "moistureSubstrate": 75,
+            "phSubstrateBefore": 6.5,
+            "phSubstrateAfter": 6.3,
+            "ppmSubstrate": 650,
+            "ppfdTop": 520,
+            "tempC": 24.5,
+            "humidityRH": 62,
+            "stage": "vegetative",
+            "stageDay": 18,
+            "strain": "Northern Lights Automatic",
+            "breeder": "Royal Queen Seeds"
+          }
+        ]
+      }
+    ]
+  },
+  "userStats": {},
+  "userProfiles": {
+    "local-demo-grower-id": {
+      "name": "Гровер FloraGrow",
+      "avatarUrl": "",
+      "bio": "Медичний гровер. Досліджую автоквіти та класичні сортові лінії з високим вмістом CBD для релаксу та здоров'я.",
+      "growExperience": "Досвідчений Гровер (2 роки)",
+      "memberSince": "2025",
+      "locationRegion": "Україна, Київ",
+      "email": "grower@floragrow.local"
+    }
+  }
+}

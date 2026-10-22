@@ -1,0 +1,6 @@
+{
+  "name": "PROPAHANDA GROW",
+  "description": "Розумний додаток та гейміфікований AI-помічник для вирощування медичного канабісу вдома з прогнозуванням, нагадуваннями та системою балів.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
